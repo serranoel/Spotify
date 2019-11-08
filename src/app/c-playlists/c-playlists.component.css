@@ -1,0 +1,86 @@
+.playlist-text {
+    margin: 15px 0 0 20px;
+    color: #B3B3B3;
+    font-size: 12px;
+}
+.add-playlist {
+    margin: 15px 0 0 24px;
+    color: #B3B3B3;
+    position: relative;
+}
+.add-playlist:hover {
+    color: #ffffff;
+    cursor: pointer;
+}
+.add-playlist > p > span {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 0 0 15px;
+    font-size: 13px;
+    position: absolute;
+    top: 10px;
+}
+.add-playlist-button {
+    font-size: 38px;
+}
+.playlist-list {
+    border: 1px solid red;
+    width: 75%;
+    margin: 20px 0 20px 22px;
+    height: 320px;
+}
+
+/* Modal */
+
+.modal-playlist{
+    z-index: 0;
+}
+
+.modal-style {
+    margin: 190px auto 0 auto;
+}
+.close-modal-button > p {
+    font-size: 50px;
+    color: #ffffff; 
+    margin: 0 auto;  
+}
+.close-modal-button > p:hover {
+    color: red;
+}
+.title-modal {
+    margin: 10px auto;
+}
+.title-modal > h1 {
+    color: #ffffff;
+    font-weight: bold;
+    margin: 0 auto 20px auto;
+    font-size: 49px;
+}
+.main-modal {
+    height: 150px;
+    background-color: rgb(40, 40, 40);
+    width: 450%;
+    margin-left: -1000px;
+}
+.main-modal-container {
+    margin-left: 900px;
+    background-color: rgb(40, 40, 40);
+    width: 100%;
+}
+.main-modal-container > p {
+    color: #ffffff;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.main-modal-container > input {
+    background-color: rgb(40, 40, 40);
+    border: none;
+    height: 70px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.modal-create-button > button{
+    margin: 25px auto;  
+}
+

@@ -1,0 +1,9 @@
+.player-container {
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.player {
+    margin-top: 23px;
+}

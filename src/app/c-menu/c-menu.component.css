@@ -1,0 +1,13 @@
+.menu-container p {
+    color: #B3B3B3;
+    font-weight: bold;
+    font-size: 13px;
+}
+.menu-container p:hover {
+    color: #ffffff;
+    cursor: pointer;
+}
+.menu-icon {
+    font-size: 22px;
+}
+

@@ -1,0 +1,8 @@
+<div class="d-flex flex-row single-album-container">
+    <div class= "single-cd text-center" *ngFor = "let cd of arrCds" routerLink = "album/{{cd['id']}}">
+        <img class="album-img" src="{{cd['image']}}" alt="cd-image">
+        <p class="album-name">{{cd['title']}}</p>
+        <p class="artist-name"><span>{{cd["artist"]}}</span></p>
+    </div>
+</div>
+

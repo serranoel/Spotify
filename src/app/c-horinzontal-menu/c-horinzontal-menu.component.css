@@ -1,0 +1,14 @@
+.h-menu-container > ul > li{
+    color: #b3b3b3;
+    font-weight: bold;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 30px 25px;
+}
+@media (max-width: 1260px) {
+    .h-menu-container {
+      display: none;
+    }
+  }

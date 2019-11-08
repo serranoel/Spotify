@@ -1,0 +1,78 @@
+.album-info-container {
+    height: 100vh;
+    text-align: center;
+}
+.album-info-image {
+    width: 60%;
+    margin-top: 30px;
+}
+.album-info-title {
+    color: #ffffff;
+    font-size: 26px;
+    margin: 12px 0 3px 0;
+    font-weight: bold;
+}
+.album-info-artist {
+    color: #b3b3b3;
+    font-weight: bold;
+    margin-top: 3px;
+    font-size: 16px;
+    width: auto;
+}
+.album-info-artist:hover {
+    color: #ffffff;
+    cursor: pointer;
+}
+.album-info-artist >span:hover {
+    padding-bottom: 2px;
+    border-bottom: 1px solid;
+}
+.play-button {
+    color: #ffffff;
+    background-color: rgb(29, 185, 84);
+    border: none;
+    font-size: 14px;
+    padding: 8px 45px;
+    border-radius: 20%;
+    border-radius: 90px 90px 90px 90px;
+    -moz-border-radius: 90px 90px 90px 90px;
+    -webkit-border-radius: 90px 90px 90px 90px;
+    margin-top: 20px;
+    transition: .1s;
+}
+.play-button:hover {
+    background-color: rgb(30, 215, 96);
+    transform: scale(1.025);
+}
+.play-button:focus {
+    outline: none;
+}
+.extra-info {
+    color: #b3b3b3;
+    font-size: 14px;
+    font-weight: bold;    
+    margin-top: 8px;
+}
+.dot {
+    font-size: 3px;
+    margin: 0 10px 5px 10px;
+    padding-bottom: 30px;
+}
+.fav-more-buttons {
+    margin: 0 auto;
+    margin-top: 45px;
+    width: 75px;
+}
+.fav-more-buttons > i{
+    font-size: 20px;
+    color: #ffffff;
+    transition: .1s
+}
+.fav-more-buttons > i:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
