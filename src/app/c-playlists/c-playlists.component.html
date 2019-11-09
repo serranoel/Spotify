@@ -3,9 +3,11 @@
     <p><i class="fas fa-plus-square add-playlist-button"></i><span>Crear playlist</span> </p>
 </div>
 <div class="playlist-list">
-
+    <div class="single-playlist" *ngFor = "let playlist of arrPlaylist">
+        <p class="playlist-name" (contextmenu) = "deletePlaylist($event, playlist['id'])" routerLink = "album/{{playlist['id']}}">{{playlist["title"]}}</p>
+    </div>
 </div>
-
+ 
 <!--Modal-->
 <!--Modal: modalCookie-->
 <div class="modal fade top modal-playlist" id="modalCookie1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"

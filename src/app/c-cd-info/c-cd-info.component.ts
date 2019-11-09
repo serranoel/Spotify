@@ -16,11 +16,14 @@ export class CCdInfoComponent implements OnInit {
   constructor(public sPath: ActivatedRoute, public sData: DataService) { 
     this.id = this.sPath.snapshot.params.id;
     this.album = this.sData.sSetAlbum(this.id)
-    
   }
 
   ngOnInit() {
 
+  }
+
+  addAlbumToPlaylists(id:number): void {
+    this.sData.sAddAlbumToPlaylists(id)
   }
 
 }

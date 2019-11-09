@@ -8,7 +8,7 @@
     outline: none;
 }
 .album-img {
-    width: 160px;
+    width: 192px;
 }
 .album-name {
     font-size: 13px;
@@ -26,6 +26,7 @@
     margin-top: 7px;
     font-size: 13px;
     width: auto;
+    transition: 0.1s;
 }
 .artist-name:hover {
     color: #ffffff;

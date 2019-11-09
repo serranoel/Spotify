@@ -24,10 +24,26 @@
     font-size: 38px;
 }
 .playlist-list {
-    border: 1px solid red;
     width: 75%;
     margin: 20px 0 20px 22px;
     height: 320px;
+    overflow: scroll;
+}
+.playlist-list::-webkit-scrollbar {
+    display: none;
+}
+.playlist-name {
+    color: #ffffff;
+}
+.playlist-name {
+    font-size: 13.5px;
+    color: #b3b3b3;
+    /* font-weight: bold; */
+    margin: 0px 0 8px 2px;
+}
+.playlist-name:hover {
+    cursor: pointer;
+    color: #ffffff;
 }
 
 /* Modal */

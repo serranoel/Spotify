@@ -26,21 +26,17 @@
     background-color: rgb(24, 24, 24);
     width: 100vw;
     height: 100vh;
-    overflow-y: scroll;
-   
+    overflow-x: hidden;
 }
 .main-home {
     margin-left: 222px;
 }
-
-/* Player */
-
-.player {
-    width: 100vw;
-    height: 100px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background-color: rgb(40, 40, 40);
-    z-index: 2;
+@media (max-width: 768px) {
+    .main-home {
+        margin-left: 0;
+    }
 }
+.sections-container {
+    margin-left: 15px;
+}
+

@@ -8,15 +8,19 @@ import { DataService } from '../service/data.service';
 })
 export class CPlaylistsComponent implements OnInit {
 
-  data: object
+  data: object;
+  arrPlaylist: object[] = this.sData.sArrPlaylist;
+  playlistId: string;
 
   constructor(public sData: DataService) { }
 
   ngOnInit() {
   }
 
-  addPlaylist() {
-
+  deletePlaylist(event, id: string): void {
+    this.sData.sDeletePlaylist(event, id);
   }
+  
 
+  
 }

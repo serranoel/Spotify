@@ -6,6 +6,6 @@
     <p class="extra-info">{{album['year']}}  -  {{album['canciones'].length}} canciones</p>
     <div class="fav-more-buttons">
         <i class="fas fa-heart float-left"></i>
-        <i class="fas fa-ellipsis-h float-right"></i>
+        <i class="fas fa-ellipsis-h float-right" (click) = "addAlbumToPlaylists(id)"></i>
     </div>
 </div>
