@@ -121,7 +121,7 @@ export class DataService {
       }
     ];
   sAlbum: object;
-  sSong: string;
+  sSong: any;
   sPlaylist: string;
   sDuration: string;
   sPlaying: boolean = false;

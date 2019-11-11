@@ -47,6 +47,9 @@ export class CPlayerComponent {
     (<HTMLAudioElement>document.getElementById('player')).volume -= 0.1;
   }
 
+  truquitoTemporal() {
+    return this.sData.sSong['link'];
+  }
   
 
 
