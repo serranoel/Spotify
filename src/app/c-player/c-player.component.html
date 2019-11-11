@@ -1,5 +1,49 @@
 <div class="player-container">
-    <audio class="player" src="../../assets/cds/{{sData.sSong}}" controls autoplay></audio>
+    <div class="row">
+        <div class="col-3 info-playing-song">
+            <div class="" *ngIf = "sData.sClickedSong === true">
+                <img class="player-image float-left" src="{{sData.sAlbum['image']}}">
+                <div class="info-track float-left">
+                    <p class="player-track-name m-0 text-left"><span>{{sData.sSong['name']}}</span></p>
+                    <p class="player-track-artist m-0 text-left"><span class="">{{sData.sAlbum['artist']}}</span><span>{{sData.sSong['feat']}}</span> </p>                   
+                </div>        
+            </div>
+        </div>
+        
+        <div class="col-6 playing-song-commmands">
+            <audio id="player" src="../../assets/cds/{{sData.sSong['link']}}" autoplay></audio>
+            <div  class="player-buttons" style="height: 13.4vh d-inline-flex">
+                <div class="row button-commands">
+                    <div class="col-5">
+                        <p class="player-button float-right" onclick="document.getElementById('player').volume += 0.1"><i class="fas fa-backward icon-command"></i></p>
+                    </div>
+                    <div class="col-2 play-pause-container">
+                        <p class="player-button play-button text-center" (click) = "playSong()"><i class="far fa-play-circle icon-command"></i></p>
+                        <p class="player-button pause-button d-none" (click) = "pauseSong()"><i class="far fa-pause-circle icon-command"></i></p>
+                    </div>
+                    <div class="col-5">
+                        <p class="player-button float-left" onclick="document.getElementById('player').volume -= 0.1"><i class="fas fa-forward icon-command"></i></p>
+                    </div>             
+                </div>
+                <!-- <div class="row progress-barr-commands">
+                    <div class="py-5">
+                        <div class="progress">
+                            <div id="barra" class="progress-bar progress-bar-black end animation" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                    
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>    
+        </div>
+        <div class="col-3 volume-commands">
+
+        </div>
+
+    </div>
+    
+    
+    
 </div>
 
-
+<!--  -->

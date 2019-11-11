@@ -1,17 +1,18 @@
 <div class="tracklist">
     <div class="track-container" (click) = "setSong(id, song['name'])" *ngFor = "let song of album['canciones']">
         <div class="row">
-            <div class="col-12 ml-0">
+            <div class="col-12 ml-0 song-container">
                 <i class="fas fa-music float-left mr-3 track-icon"></i>
                 <p class="float-left track-name">{{song["name"]}}</p>
                 <p class="float-right track-duration">{{song["duration"]}}</p>
+                <i class="fas fa-ellipsis-h float-right more-tools-icon"></i>
             </div>
         </div>
         <div class="row">
-            <div class="col-12">
-                <p class="track-artist float-left"><span>{{album["artist"]}} </span> <span>{{song["feat"]}}</span> </p>
+            <div class="col-12 track-artist-name">
+                <p class="track-artist float-left"><span class="span-artist">{{album["artist"]}} </span><span class=" span-feat p-0">{{song["feat"]}}</span> </p>
             </div>
-        </div>
+        </div> 
     </div>       
 </div>
 

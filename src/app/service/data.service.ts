@@ -81,24 +81,24 @@ export class DataService {
         year: 2019,
         image: "../../assets/albumCover/homerun.jpg",
         canciones: [ 
-          { name: "Homerun (Intro)", duration: "2:29", feat: "", link: "PauloLondra/.mp3" }, 
-          { name: "Tal vez", duration: "4:23", feat: "", link: "PauloLondra/.mp3" },
-          { name: "No puedo", duration: "2:55", feat: "", link: "PauloLondra/.mp3" },
-          { name: "Adan y Eva", duration: "4:16", feat: "", link: "PauloLondra/.mp3" },
-          { name: "Demasiado loco", duration: "2:46", feat: "", link: "PauloLondra/.mp3" },
-          { name: "Maldita abusadora", duration: "4:10", feat: "", link: "PauloLondra/.mp3" },
-          { name: "Y yo no sé", duration: "3:10", feat: "", link: "PauloLondra/.mp3" },    
-          { name: "So fresh", duration: "2:47", feat: "", link: "PauloLondra/.mp3" },
-          { name: "Querido amigo", duration: "3:48", feat: "", link: "PauloLondra/.mp3" },
-          { name: "Romeo y Julieta", duration: "3:01", feat: "", link: "PauloLondra/.mp3" },
-          { name: "Por eso vine", duration: "2:58", feat: "", link: "PauloLondra/.mp3" },
-          { name: "Solo pienso en ti", duration: "4:28", feat: ", Justin Quiles", link: "PauloLondra/.mp3" },
-          { name: "Forever alone", duration: "3:34", feat: "", link: "PauloLondra/.mp3" },
-          { name: "Condenado para el millón", duration: "3:42", feat: "", link: "PauloLondra/.mp3"},
-          { name: "Nena maldición", duration: "3:47", feat: ", Lenny Tavárez", link: "PauloLondra/.mp3" },
-          { name: "Dímelo", duration: "3:32", feat: "", link: "PauloLondra/.mp3" },
-          { name: "Chica paranormal", duration: "3:41", feat: "", link: "PauloLondra/.mp3" },
-          { name: "Sigan hablando de mi", duration: "2:40", feat: "", link: "PauloLondra/.mp3" }
+          { name: "Homerun (Intro)", duration: "2:29", feat: "", link: "PauloLondra/homerun.mp3" }, 
+          { name: "Tal vez", duration: "4:23", feat: "", link: "PauloLondra/talvez.mp3" },
+          { name: "No puedo", duration: "2:55", feat: "", link: "PauloLondra/nopuedo.mp3" },
+          { name: "Adan y Eva", duration: "4:16", feat: "", link: "PauloLondra/adanyeva.mp3" },
+          { name: "Demasiado loco", duration: "2:46", feat: "", link: "PauloLondra/demasiadoloco.mp3" },
+          { name: "Maldita abusadora", duration: "4:10", feat: "", link: "PauloLondra/malditaabusadora.mp3" },
+          { name: "Y yo no sé", duration: "3:10", feat: "", link: "PauloLondra/yyonose.mp3" },    
+          { name: "So fresh", duration: "2:47", feat: "", link: "PauloLondra/sofresh.mp3" },
+          { name: "Querido amigo", duration: "3:48", feat: "", link: "PauloLondra/queridoamigo.mp3" },
+          { name: "Romeo y Julieta", duration: "3:01", feat: "", link: "PauloLondra/romeoyjulieta.mp3" },
+          { name: "Por eso vine", duration: "2:58", feat: "", link: "PauloLondra/poresovine.mp3" },
+          { name: "Solo pienso en ti", duration: "4:28", feat: ", Justin Quiles", link: "PauloLondra/solopiensoenti.mp3" },
+          { name: "Forever alone", duration: "3:34", feat: "", link: "PauloLondra/foreveralone.mp3" },
+          { name: "Condenado para el millón", duration: "3:42", feat: "", link: "PauloLondra/condenadoparaelmillon.mp3"},
+          { name: "Nena maldición", duration: "3:47", feat: ", Lenny Tavárez", link: "PauloLondra/nenamaldicion.mp3" },
+          { name: "Dímelo", duration: "3:32", feat: "", link: "PauloLondra/dimelo.mp3" },
+          { name: "Chica paranormal", duration: "3:41", feat: "", link: "PauloLondra/chicaparanormal.mp3" },
+          { name: "Sigan hablando de mi", duration: "2:40", feat: "", link: "PauloLondra/siganhablandodemi.mp3" }
         ]
       },
       {
@@ -108,21 +108,25 @@ export class DataService {
         year: 2019,
         image: "../../assets/albumCover/recuerdos.jpg",
         canciones: [ 
-          { name: "7 Lunas", duration: "3:27", feat: "", link: "Guitarricadelafuente/abc.mp3" }, 
-          { name: "Cómo Dímelo", duration: "3:20", feat: ", Cazzu", link: "Guitarricadelafuente/vasaencontrarte.mp3" },
-          { name: "Nos Encontramos", duration: "2:37", feat: "", link: "Guitarricadelafuente/guantanamera.mp3" },
-          { name: "Tras Vos", duration: "2:50", feat: "", link: "Guitarricadelafuente/nanatriste.mp3" },
-          { name: "Diva", duration: "3:20", feat: "", link: "Guitarricadelafuente/aguaymezcal.mp3" },
-          { name: "Shorty", duration: "3:25", feat: ", Duki", link: "Guitarricadelafuente/nacidopaganar.mp3" },
-          { name: "Recuerdos", duration: "2:50", feat: "", link: "Guitarricadelafuente/nacidopaganar.mp3" },
-          { name: "Me Gusta", duration: "3:08", feat: "", link: "Guitarricadelafuente/nacidopaganar.mp3" },
-          { name: "Plegarias", duration: "3:18", feat: "", link: "Guitarricadelafuente/nacidopaganar.mp3" }  
+          { name: "7 Lunas", duration: "3:27", feat: "", link: "NickiNicole/7lunas.mp3" }, 
+          { name: "Cómo Dímelo", duration: "3:20", feat: ", Cazzu", link: "NickiNicole/comodimelo.mp3" },
+          { name: "Nos Encontramos", duration: "2:37", feat: "", link: "NickiNicole/nosencontramos.mp3" },
+          { name: "Tras Vos", duration: "2:50", feat: "", link: "NickiNicole/trasvos.mp3" },
+          { name: "Diva", duration: "3:20", feat: "", link: "NickiNicole/diva.mp3" },
+          { name: "Shorty", duration: "3:25", feat: ", Duki", link: "NickiNicole/shorty.mp3" },
+          { name: "Recuerdos", duration: "2:50", feat: "", link: "NickiNicole/recuerdos.mp3" },
+          { name: "Me Gusta", duration: "3:08", feat: "", link: "NickiNicole/megusta.mp3" },
+          { name: "Plegarias", duration: "3:18", feat: "", link: "NickiNicole/plegarias.mp3" }  
         ]
       }
     ];
   sAlbum: object;
   sSong: string;
   sPlaylist: string;
+  sDuration: string;
+  sPlaying: boolean = false;
+  sClickedSong: boolean = false;
+
   
 
   constructor() {
@@ -141,17 +145,28 @@ export class DataService {
   }
 
 /* Funcion que me devuelve la cancion concreta y lo inyecta en c-player para que se reproduzca */
-  sSetSong(id: number, songName: string): void{
+  sSetSong(id: number, songName: string): any{
     this.sArrCds.forEach((cd) => {
       if (id == cd["id"]) {
         cd["canciones"].forEach((singleSong) => {
           if (songName == singleSong["name"]) { 
-            this.sSong = singleSong["link"];
-            console.log(this.sSong)
+            this.sSong = singleSong;
+            this.sPlaying = true;
           }
         })
       }
     })
+    this.sIsPLaying();
+    this.sClickedSong = true;
+  }
+
+  /* Duncion que sirve para que el boton de play pause alternen en funcion de si esta sonando o no la musica */
+  sIsPLaying(): void {
+    if (this.sPlaying === true) {
+      console.log("hola");
+      (<HTMLTextAreaElement>document.querySelectorAll(".play-button")[0]).className += " d-none";
+      (<HTMLTextAreaElement>document.querySelectorAll(".pause-button")[0]).className = "player-button pause-button";
+    }
   }
 
 /* Funcion que añade un album concreto a la lista de playlists */
@@ -178,7 +193,8 @@ export class DataService {
     } 
   }
 
-  sDeletePlaylist(event, id: string): void {
+  /* Funcion que detecta que playlist debe ser borrado y lo elimina tanto de playlists como de localStorage */
+  sDeletePlaylist(id: string): void {
     this.sArrPlaylist.forEach((playlist) => {
       if (id == playlist["id"]) {
         let index = this.sArrPlaylist.indexOf(playlist);
@@ -186,8 +202,9 @@ export class DataService {
         localStorage.setItem("data", JSON.stringify(this.sArrPlaylist));
       }
     })
-    event.preventDefault();
   }
+
+  
   
 
   

@@ -1,9 +1,68 @@
 .player-container {
     height: 100%;
-    width: 50%;
+    width: 96%;
     margin: 0 auto;
     text-align: center;
 }
-.player {
-    margin-top: 23px;
+#player {
+
 }
+.player-buttons {
+    padding-top: 0px;
+    height: 100px;
+
+}
+.player-button {
+    display: inline-block;
+    color: #ffffff;
+}
+.play-pause-container {
+    position: relative;
+}
+.play-button,
+.pause-button {
+    position: absolute;
+    left: 51px;
+}
+/* .end {
+    width: 0%;
+}
+.start {
+    width: 100%;
+} */
+.py-4 {
+    padding: 0 !important;
+}
+.player-image {
+    width: 60px;
+    margin-top: 19px;
+}
+.info-track {
+    margin: 28px 0 0 17px;
+}
+.player-track-name {
+    color: #ffffff;
+    font-size: 14px;
+}
+.player-track-name > span:hover {
+    border-bottom: 1px solid #ffffff;
+    cursor: pointer;
+}
+.player-track-artist {
+    color: rgb(179, 179, 179);
+    font-size: 12px;
+}
+.player-track-artist:hover {
+    color: #ffffff;
+    cursor: pointer;
+}
+.span-margin {
+    margin-left: -13px;
+    text-align: left;
+}
+.icon-command {
+    padding-top: 40px;
+    font-size: 25px;
+
+}
+
