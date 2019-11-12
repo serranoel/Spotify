@@ -84,7 +84,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"menu-container w-100\">\n    <div class=\"row home selected w-100\">\n        <div class=\"col-12\">\n            <p class=\"menu-text\" routerLink = \"home\"><i class=\"fab fa-houzz mr-4 menu-icon\"></i>Inicio</p>\n        </div>\n    </div>\n    <div class=\"row search\">\n        <div class=\"col-12\">\n            <p class=\"search-text\"><i class=\"fas fa-search mr-4 menu-icon\"></i>Buscar</p>\n        </div>\n    </div>\n    <div class=\"row library\">\n        <div class=\"col-12\">\n            <p class=\"library-text\"><i class=\"fas fa-compact-disc mr-4 menu-icon\"></i>Tu biblioteca</p>\n        </div>\n    </div>\n</div>\n\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"menu-container w-100\">\n    <div class=\"row home selected w-100\">\n        <div class=\"col-12\">\n            <p class=\"menu-text\" routerLink = \"/home\"><i class=\"fab fa-houzz mr-4 menu-icon\"></i>Inicio</p>\n        </div>\n    </div>\n    <div class=\"row search\">\n        <div class=\"col-12\">\n            <p class=\"search-text\"><i class=\"fas fa-search mr-4 menu-icon\"></i>Buscar</p>\n        </div>\n    </div>\n    <div class=\"row library\">\n        <div class=\"col-12\">\n            <p class=\"library-text\"><i class=\"fas fa-compact-disc mr-4 menu-icon\"></i>Tu biblioteca</p>\n        </div>\n    </div>\n</div>\n\n");
 
 /***/ }),
 
@@ -97,7 +97,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"player-container\">\n    <div class=\"row\">\n        <div class=\"col-3 info-playing-song\">\n            <div class=\"\" *ngIf = \"sData.sClickedSong === true\">\n                <img class=\"player-image float-left\" src=\"{{sData.sAlbum['image']}}\">\n                <div class=\"info-track float-left\">\n                    <p class=\"player-track-name m-0 text-left\"><span>{{sData.sSong['name']}}</span></p>\n                    <p class=\"player-track-artist m-0 text-left\"><span class=\"\">{{sData.sAlbum['artist']}}</span><span>{{sData.sSong['feat']}}</span> </p>                   \n                </div>        \n            </div>\n        </div>\n        \n        <div class=\"col-6 playing-song-commmands\">\n            <!-- <audio id=\"player\" src=\"../../assets/cds/{{sData.sSong['link']}}\" autoplay></audio> -->\n            <audio id=\"player\" src=\"../../assets/cds/{{truquitoTemporal()}}\" autoplay></audio>\n            <div  class=\"player-buttons\" style=\"height: 13.4vh d-inline-flex\">\n                <div class=\"row button-commands\">\n                    <div class=\"col-5\">\n                        <p class=\"player-button float-right\" onclick=\"document.getElementById('player').volume += 0.1\"><i class=\"fas fa-backward icon-command\"></i></p>\n                    </div>\n                    <div class=\"col-2 play-pause-container\">\n                        <p class=\"player-button play-button text-center\" (click) = \"playSong()\"><i class=\"far fa-play-circle icon-command\"></i></p>\n                        <p class=\"player-button pause-button d-none\" (click) = \"pauseSong()\"><i class=\"far fa-pause-circle icon-command\"></i></p>\n                    </div>\n                    <div class=\"col-5\">\n                        <p class=\"player-button float-left\" onclick=\"document.getElementById('player').volume -= 0.1\"><i class=\"fas fa-forward icon-command\"></i></p>\n                    </div>             \n                </div>\n                <!-- <div class=\"row progress-barr-commands\">\n                    <div class=\"py-5\">\n                        <div class=\"progress\">\n                            <div id=\"barra\" class=\"progress-bar progress-bar-black end animation\" role=\"progressbar\" aria-valuenow=\"75\" aria-valuemin=\"0\" aria-valuemax=\"100\">\n                    \n                            </div>\n                        </div>\n                    </div>\n                </div> -->\n            </div>    \n        </div>\n        <div class=\"col-3 volume-commands\">\n\n        </div>\n\n    </div>\n    \n    \n    \n</div>\n\n<!--  -->\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"player-container\">\n    <div class=\"row\">\n        <div class=\"col-3 info-playing-song\">\n            <div class=\"\" *ngIf = \"sData.sClickedSong === true\">\n                <img class=\"player-image float-left\" src=\"{{sData.sAlbum['image']}}\">\n                <div class=\"info-track float-left\">\n                    <p class=\"player-track-name m-0 text-left\"><span>{{sData.sSong['name']}}</span></p>\n                    <p class=\"player-track-artist m-0 text-left\"><span class=\"\">{{sData.sAlbum['artist']}}</span><span>{{sData.sSong['feat']}}</span> </p>                   \n                </div>        \n            </div>\n        </div>\n        \n        <div class=\"col-6 playing-song-commmands\">\n            <!-- <audio id=\"player\" src=\"../../assets/cds/{{sData.sSong['link']}}\" autoplay></audio> -->\n            <audio id=\"player\" src=\"./assets/cds/{{truquitoTemporal()}}\" autoplay></audio>\n            <div  class=\"player-buttons\" style=\"height: 13.4vh d-inline-flex\">\n                <div class=\"row button-commands\">\n                    <div class=\"col-5\">\n                        <p class=\"player-button float-right\" onclick=\"document.getElementById('player').volume += 0.1\"><i class=\"fas fa-backward icon-command\"></i></p>\n                    </div>\n                    <div class=\"col-2 play-pause-container\">\n                        <p class=\"player-button play-button text-center\" (click) = \"playSong()\"><i class=\"far fa-play-circle icon-command\"></i></p>\n                        <p class=\"player-button pause-button d-none\" (click) = \"pauseSong()\"><i class=\"far fa-pause-circle icon-command\"></i></p>\n                    </div>\n                    <div class=\"col-5\">\n                        <p class=\"player-button float-left\" onclick=\"document.getElementById('player').volume -= 0.1\"><i class=\"fas fa-forward icon-command\"></i></p>\n                    </div>             \n                </div>\n                <!-- <div class=\"row progress-barr-commands\">\n                    <div class=\"py-5\">\n                        <div class=\"progress\">\n                            <div id=\"barra\" class=\"progress-bar progress-bar-black end animation\" role=\"progressbar\" aria-valuenow=\"75\" aria-valuemin=\"0\" aria-valuemax=\"100\">\n                    \n                            </div>\n                        </div>\n                    </div>\n                </div> -->\n            </div>    \n        </div>\n        <div class=\"col-3 volume-commands\">\n\n        </div>\n\n    </div>\n    \n    \n    \n</div>\n\n<!--  -->\n");
 
 /***/ }),
 
@@ -1066,7 +1066,7 @@ let DataService = class DataService {
                 artist: "Rels B",
                 title: "Happy Birthday Flakko",
                 year: 2019,
-                image: "../../assets/albumCover/happybirthdayflakko.jpg",
+                image: "./assets/albumCover/happybirthdayflakko.jpg",
                 canciones: [
                     { name: "Happy  Birthday Flakko", duration: "0:29", feat: "", link: "RelsB/happybirthdayflakko.mp3" },
                     { name: "¿Y tú qué?", duration: "3:06", feat: "", link: "RelsB/ytuque.mp3" },
@@ -1084,7 +1084,7 @@ let DataService = class DataService {
                 artist: "Natos y Waor, Recycled J",
                 title: "Hijos de la Ruina, vol. 2",
                 year: 2019,
-                image: "../../assets/albumCover/hijosdelaruina.jpg",
+                image: "./assets/albumCover/hijosdelaruina.jpg",
                 canciones: [
                     { name: "Carretera", duration: "3:34", feat: "", link: "NatosyWaor/carretera.mp3" },
                     { name: "In love", duration: "5:28", feat: "", link: "NatosyWaor/inlove.mp3" },
@@ -1099,7 +1099,7 @@ let DataService = class DataService {
                 artist: "Moonkey",
                 title: "Fuck the World",
                 year: 2019,
-                image: "../../assets/albumCover/fucktheworld.jpg",
+                image: "./assets/albumCover/fucktheworld.jpg",
                 canciones: [
                     { name: "Blood", duration: "3:12", feat: ", Nake", link: "Moonkey/blood.mp3" },
                     { name: "Envidia", duration: "3:12", feat: ", Cypher", link: "Moonkey/envidia.mp3" },
@@ -1116,7 +1116,7 @@ let DataService = class DataService {
                 artist: "Guitarricadelafuente",
                 title: "Recopilatorio Andaluz",
                 year: 2019,
-                image: "../../assets/albumCover/recopilatorioandaluz.jpg",
+                image: "./assets/albumCover/recopilatorioandaluz.jpg",
                 canciones: [
                     { name: "ABC", duration: "2:49", feat: "", link: "Guitarricadelafuente/abc.mp3" },
                     { name: "Vas a encontrarte", duration: "3:31", feat: "", link: "Guitarricadelafuente/vasaencontrarte.mp3" },
@@ -1131,7 +1131,7 @@ let DataService = class DataService {
                 artist: "Paulo Londra",
                 title: "Home Run",
                 year: 2019,
-                image: "../../assets/albumCover/homerun.jpg",
+                image: "./assets/albumCover/homerun.jpg",
                 canciones: [
                     { name: "Homerun (Intro)", duration: "2:29", feat: "", link: "PauloLondra/homerun.mp3" },
                     { name: "Tal vez", duration: "4:23", feat: "", link: "PauloLondra/talvez.mp3" },
@@ -1158,7 +1158,7 @@ let DataService = class DataService {
                 artist: "Nicki Nicole",
                 title: "Recuerdos",
                 year: 2019,
-                image: "../../assets/albumCover/recuerdos.jpg",
+                image: "./assets/albumCover/recuerdos.jpg",
                 canciones: [
                     { name: "7 Lunas", duration: "3:27", feat: "", link: "NickiNicole/7lunas.mp3" },
                     { name: "Cómo Dímelo", duration: "3:20", feat: ", Cazzu", link: "NickiNicole/comodimelo.mp3" },

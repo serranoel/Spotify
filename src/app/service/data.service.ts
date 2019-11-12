@@ -14,7 +14,7 @@ export class DataService {
         artist: "Rels B",
         title: "Happy Birthday Flakko",
         year: 2019,
-        image: "../../assets/albumCover/happybirthdayflakko.jpg",
+        image: "./assets/albumCover/happybirthdayflakko.jpg",
         canciones: [ 
           { name: "Happy  Birthday Flakko", duration: "0:29", feat: "", link: "RelsB/happybirthdayflakko.mp3" }, 
           { name: "¿Y tú qué?", duration: "3:06", feat: "", link: "RelsB/ytuque.mp3"},
@@ -32,7 +32,7 @@ export class DataService {
         artist: "Natos y Waor, Recycled J",
         title: "Hijos de la Ruina, vol. 2",
         year: 2019,
-        image: "../../assets/albumCover/hijosdelaruina.jpg",
+        image: "./assets/albumCover/hijosdelaruina.jpg",
         canciones: [ 
           { name: "Carretera", duration: "3:34", feat: "", link: "NatosyWaor/carretera.mp3"}, 
           { name: "In love", duration: "5:28", feat: "",  link: "NatosyWaor/inlove.mp3" },
@@ -47,7 +47,7 @@ export class DataService {
         artist: "Moonkey",
         title: "Fuck the World",
         year: 2019,
-        image: "../../assets/albumCover/fucktheworld.jpg",
+        image: "./assets/albumCover/fucktheworld.jpg",
         canciones: [ 
           { name: "Blood", duration: "3:12", feat: ", Nake", link: "Moonkey/blood.mp3" }, 
           { name: "Envidia", duration: "3:12", feat: ", Cypher", link: "Moonkey/envidia.mp3" },
@@ -64,7 +64,7 @@ export class DataService {
         artist: "Guitarricadelafuente",
         title: "Recopilatorio Andaluz",
         year: 2019,
-        image: "../../assets/albumCover/recopilatorioandaluz.jpg",
+        image: "./assets/albumCover/recopilatorioandaluz.jpg",
         canciones: [ 
           { name: "ABC", duration: "2:49", feat: "", link: "Guitarricadelafuente/abc.mp3" }, 
           { name: "Vas a encontrarte", duration: "3:31", feat: "", link: "Guitarricadelafuente/vasaencontrarte.mp3" },
@@ -79,7 +79,7 @@ export class DataService {
         artist: "Paulo Londra",
         title: "Home Run",
         year: 2019,
-        image: "../../assets/albumCover/homerun.jpg",
+        image: "./assets/albumCover/homerun.jpg",
         canciones: [ 
           { name: "Homerun (Intro)", duration: "2:29", feat: "", link: "PauloLondra/homerun.mp3" }, 
           { name: "Tal vez", duration: "4:23", feat: "", link: "PauloLondra/talvez.mp3" },
@@ -106,7 +106,7 @@ export class DataService {
         artist: "Nicki Nicole",
         title: "Recuerdos",
         year: 2019,
-        image: "../../assets/albumCover/recuerdos.jpg",
+        image: "./assets/albumCover/recuerdos.jpg",
         canciones: [ 
           { name: "7 Lunas", duration: "3:27", feat: "", link: "NickiNicole/7lunas.mp3" }, 
           { name: "Cómo Dímelo", duration: "3:20", feat: ", Cazzu", link: "NickiNicole/comodimelo.mp3" },
