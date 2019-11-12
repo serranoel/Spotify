@@ -27,6 +27,9 @@ El Stack con el que se ha llevado a cabo es:
  El funcionamiento es sencillo, al entrar en la home podemos ver un listado de albumes a los que podemos acceder mediante un click. Al hacerlo, se nos mstrara una vista con toda la informacion relativa a este y podremos escoger la canción que deseamos escuchar (tambien mediante click). Al hacerlo, empezara la reproduccion en la barra inferior que ocntiene el reproductor. A la izquierda de este, se nos mostrará una pequeña imagen con la portada del album, el título de la canción que esta en reproducción y su artista.
  Por otro lado, en la vista de un album concreto, en la parte izquierda, donde está la información genérica del este, podemos ver un icono de "más información" al hacer click sobre este, automaticamente se nos añadirá este album a nuestra lista de reproduccion. Podemos eliminarla haciendo click derecho sobre ella y escogiendo eliminar en el dropdown que se abrirá. El menu de navegacion, así como el listado de playlist se encuentra fijado en la parte izquierda de nuestra pantalla.
 
+ <img src="https://github.com/serranoel/Spotify/blob/master/src/assets/albumCover/homeSpotify.png?raw=true">
+ <img src="https://github.com/serranoel/Spotify/blob/master/src/assets/albumCover/albumSpotify.png?raw=true">
+
  <h1> Mejoras </h1>
 
  La posibilada de implementar funcionalidades es grande, así como la de mejorar partes concretas del algoritmo. Algunas de las próximas implementaciones son las siguientes:
